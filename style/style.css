@@ -1,0 +1,555 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Dosis:wght@200..800&family=Georama:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+
+
+
+*{
+
+	 font-family: "Titillium Web", sans-serif;
+	 font-size: large;
+	 margin: 0px;
+
+}
+
+body
+{
+
+	margin: 0px;
+	background-color: #f8f9fa;
+
+}
+
+h1
+{
+
+	font-family: "Afacad", sans-serif;
+	font-size: x-large;
+
+}
+
+a
+{
+
+	font-family: "Afacad", sans-serif;
+	color: black;
+
+}
+
+header
+{
+
+	/* Medidas de la cabecera */
+	height: 5em;
+	width: 100%;
+
+	/*Sin margenes*/
+	margin: 0px;
+
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+footer
+{
+
+	/* Medidas de la cabecera */
+	background-color: #f8f9fa;
+	height: 5em;
+	width: 100%;
+
+	/*Sin margenes*/
+	margin: 0px;
+
+	/* Se centran los elementos del contenedor */
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+}
+
+.boton
+{
+
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+
+}
+
+#boton-salir
+{
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+#header-contenedor
+{
+
+	
+	top: 0;
+
+}
+
+#logo
+{
+
+	width: 200px;
+
+}
+
+
+#boton-login, #boton-salir
+{
+
+	margin-right: 1.5em;
+	margin-top: 1.5em;
+	float: right;
+
+}
+
+#boton-realizar-prueba
+{
+
+	margin-right: 1em;
+	margin-top: 1.5em;
+	float: right;
+
+}
+
+
+#encabezado-contenedor
+{
+
+	/* Medidas del contenedor */
+	margin: 0px;
+	height: 30.6em;
+	width: 100%;
+
+	/* Se muestra la imagen de fondo en blanco y negro */
+	background: linear-gradient(rgb(0, 0, 0, 0.25), rgb(0, 0, 0, 0.50)), url("../img/encabezado.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: grayscale(100%);
+
+	display: flex;
+
+}
+
+#encabezado h1
+{
+
+	font-size: 5em;
+	margin: 0pxs;
+
+}
+
+#encabezado p
+{
+
+	font-size: 2.5em;
+
+}
+
+#encabezado
+{
+
+	width: 50%;
+	margin: auto;
+	text-align: right;
+	color: white;
+	font-size: small;
+	padding-top: 15em;
+	padding-left: 30em;
+
+}
+
+
+#logo
+{
+
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+
+#login-contenedor
+{
+
+	width: 100%;
+	height: 35em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#login
+{
+
+	height: 430px;
+	width: 350px;
+	border-radius: 10px;
+	padding: 40px 15px 0px 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+#login h1, #login h2, #register h1, #register h2, #aspirante-register h1, #aspirante-register h2, #aspirante-register p 
+{
+
+	text-align: center;
+
+	
+}
+
+#login h1
+{
+
+	font-size: xx-large;
+
+}
+
+#botones-login, #botones-register, #botones-aspirante
+{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#boton-limpiar
+{
+	
+	
+	margin-left: 50px;
+
+}
+
+#usuario, #contraseña, #confirmar-contraseña, #nombre-empresa, #razon-social-empresa, #direccion-empresa, #telefono-empresa, #correo-electronico-empresa, #cedula, #primer-nombre, #segundo-nombre, #primer-apellido, #segundo-apellido, #direccion-aspirante, #telefono-aspirante, #correo-electronico-aspirante
+{
+
+	width: 100%;
+	border-radius: 3px;
+	background-color: transparent;
+
+}
+
+#rif-empresa, #nacionalidad-rif, #sector-empresa, #actividad-economica
+{
+
+	background-color: transparent;
+
+}
+
+#register-contenedor
+{
+
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#register
+{
+
+	width: 350px;
+	border-radius: 10px;
+	padding: 40px 15px 0px 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+}
+
+
+#login-aviso-contenedor
+{
+
+	text-align: center;
+
+}
+
+
+#aspirante-register-contenedor
+{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#aspirante-register
+{
+
+	width: 350px;
+	background-color: transparent;
+	border-radius: 10px;
+	padding: 40px 15px 0px 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+
+
+
+
+#psytech-contenedor
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#psytech
+{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 75%;
+}
+
+#lucerna-technologies-contenedor
+{
+
+	width: 100%;
+	height: 30em;
+
+	display: flex;
+	justify-content: center;
+	padding-top: 3em;
+	padding-left: 0px;
+
+	background-color: #f8f9fa;
+
+}
+
+#lucerna-technologies-titulo
+{
+
+	padding-left: 10px;
+
+}
+
+#lucerna-technologies p
+{
+
+	text-align: justify;
+	padding: 50px;
+
+}
+
+#imagen-lucerna-technologies
+{
+
+	
+	height: 400px;
+	
+
+}
+
+
+#contacto h1
+{
+
+	float: right;
+}
+
+#contacto p
+{
+
+	text-align: center;
+
+}
+
+#testimonios-contenedor
+{
+
+	width: 100%;
+	height: 20em;
+
+	padding-top: 2em;
+}
+
+#testimonios-titulo
+{
+
+
+	width: 100%;
+	text-align: center;
+
+}
+
+#testimonios
+{
+
+	display: flex;
+
+}
+
+
+#testimonio
+{
+
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+
+#resultados-pruebas-contenedor
+{
+
+	height: 85vh;
+
+}
+
+#resultados-pruebas
+{
+
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+
+#boton-empezar-prueba-contenedor
+{
+
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#primera-parte-prueba h1
+{
+
+	padding-left: 1em;
+	font-size: xx-large;
+
+}
+
+#primera-parte-prueba
+{
+
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+#pregunta-ejercicio-contenedor
+{
+
+	width: 100%;
+	height: 35em;
+	
+	display: flex;
+	justify-content: center;
+
+}
+
+#pregunta-ejercicio-contenedor h1
+{
+
+	padding-left: 50px;
+
+}
+
+#pregunta-ejercicio
+{
+	
+	width: 75%;
+	
+	border-radius: 10px;
+
+}
+
+#contenido-ejercicio
+{
+
+	text-align: center;
+
+}
+
+#opciones-ejercicio
+{
+
+	
+	margin-left: 2em;
+}
+
+#boton-continuar
+{
+
+	left: 50%;
+
+}
+
+#imagen-ejercicio
+{
+
+	width: 500px;
+
+}
+
+#clock-contenedor
+{
+
+	float: right;
+	font-size: xx-large;
+	padding-right: 5em;
+
+}
+
+#clock
+{
+
+	font-size: 2vw;
+
+}
+
+#aviso-prueba-terminada-contenedor
+{
+
+	
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#aviso-prueba-terminada
+{
+
+	text-align: center;
+
+}
+
